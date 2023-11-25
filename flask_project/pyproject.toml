@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "design-restful-apis"
+version = "0.1.0"
+description = "Design Restful APIs tutorial"
+authors = ["Joyce W. <jianjoycewu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+sqlalchemy = "^2.0.23"
+redis = "^5.0.1"
+googlemaps = "^4.10.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
